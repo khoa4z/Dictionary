@@ -1,0 +1,40 @@
+{
+  "name": "MomDictionary",
+  "version": "0.0.0",
+  "authors": [
+    "Ken Harvey Nguyen <kennguyen@live.com>"
+  ],
+  "description": "Dictionary",
+  "main": "server/server.js",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "Mother",
+    "Mom",
+    "Dictionary",
+    "AngularJS1.0",
+    "AngularJS",
+    "Angular"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./bower_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.3",
+    "angular-ui-router": "~0.2.15",
+    "angular-resource": "~1.4.3",
+    "angular-messages": "~1.4.3",
+    "angular-route": "~1.4.3",
+    "ng-lodash": "~0.2.3"
+  }
+}

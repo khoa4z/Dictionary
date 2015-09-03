@@ -1,0 +1,27 @@
+<h1>Home</h1> <br/> <a href="/add" class="btn btn-success"> Add </a> <br/> <br/>
+
+<div class="input-group">
+    <input type="text" class="form-control" id="querySearch" aria-describedby="querySearch" ng-model="querySearch">
+    <span class="input-group-addon" ng-click="choose(querySearch)">
+        <span class="glyphicon glyphicon-search"></span>
+    </span>
+</div>
+
+<div class="row">
+    <div class="col-sm-3">
+        <ul ng-repeat="word in words | filter: { define : querySearch }">
+            <li ng-click="choose(word.define)">{{ word.define }}</li>
+        </ul>
+    </div>
+    <div class="col-sm-9">
+        {{ choice }}
+
+        <!--<table>-->
+            <!--<tr ng-repeat="word in words | filter: { define : querySearch }">-->
+                <!--<td class="col-sm-3" >{{word.define}}</td>-->
+                <!--<td class="col-sm-9">{{word.definition}}</td>-->
+            <!--</tr>-->
+        <!--</table>-->
+
+    </div>
+</div>

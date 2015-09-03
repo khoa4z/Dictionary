@@ -1,0 +1,24 @@
+{
+  "name": "momdictionary",
+  "version": "1.0.0",
+  "description": "Dictionary",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nodejs",
+    "ExpressJs",
+    "Dictionary"
+  ],
+  "author": "Ken",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "mongodb": "^2.0.40",
+    "path": "^0.11.14",
+    "winston": "^1.0.1"
+  }
+}
